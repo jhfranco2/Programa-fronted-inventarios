@@ -1,0 +1,24 @@
+<h2>Lista de el inventario</h2>
+
+<table class="table table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>Nombre del producto</th>
+            <th>Cantidad</th>
+            <th>Fecha de ingreso</th>
+            <th>Usuario</th>
+        </tr>
+
+    </thead>
+    <tbody>
+        <tr *ngFor="let empleado of empleados">
+           <td>{{empleado.nombreProducto}}</td>
+           <td>{{empleado.cantidad}}</td>
+           <td>{{empleado.fecha}}</td>
+           <td>{{empleado.usuario}}</td>
+        </tr>
+
+    </tbody>
+        
+    
+</table>
