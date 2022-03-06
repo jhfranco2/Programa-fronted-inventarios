@@ -7,12 +7,14 @@ import { ListaInventarioComponent } from './lista-inventario/lista-inventario.co
 import { HttpClientModule } from '@angular/common/http';
 import { RegistrarInventarioComponent } from './registrar-inventario/registrar-inventario.component';
 import { FormsModule } from '@angular/forms';
+import { ActualizarInventarioComponent } from './actualizar-inventario/actualizar-inventario.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ListaInventarioComponent,
     RegistrarInventarioComponent,
+    ActualizarInventarioComponent,
 
   ],
   imports: [

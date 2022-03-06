@@ -20,4 +20,12 @@ obtenerListaEmpleados():Observable<Empleado[]>{
  registrarEmpleado(empleado:Empleado):Observable<Object>{
    return this.httpClient.post(`${this.baseURL}`,empleado);
  }
+
+  obtenerElInventarioPorId(id:number):Observable<Object>{
+    return this.httpClient.get(`${this.baseURL}/${id}`);
+     
+ }
+ elimniarInventario(id:number):Observable<Object>{
+return this.httpClient.delete(`${this.baseURL}/${id}`);
+ }
 }
