@@ -1,6 +1,6 @@
 export class Empleado {
 
-    id:Number;
+    id:number;
     nombreProducto:String;
     cantidad:String;
     fecha:String;
